@@ -13,7 +13,9 @@
 <div class="container" id="cv">
     <div class="side">
         <div class="me">
-            <a href="https://gitee.com/liyuliyu111" target="_blank"><div class="portrait"></div></a>
+            <a href="https://gitee.com/liyuliyu111" target="_blank">
+                <div class="portrait"></div>
+            </a>
             <h1 id="username">李时东</h1>
             <h4 id="persona-tag">后端开发工程师</h4>
         </div>
@@ -38,18 +40,18 @@
         <div class="contact info-unit">
             <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
             <hr>
-            <ul class="info-list">
+            <ul class="info-list contact-info">
                 <li>
-                    <label class="left-label">手机</label><span class="label-value">13082701150</span>
+                    <label class="left-label">手机</label><span class="label-value" data-url="tel:13082701150">13082701150</span>
                 </li>
                 <li>
-                    <label class="left-label">邮箱</label><span class="label-value">liyuliyuu0@163.com</span>
+                    <label class="left-label">邮箱</label><span class="label-value" data-url="mailto:liyuliyuu0@163.com">liyuliyuu0@163.com</span>
                 </li>
                 <li>
-                    <label class="left-label">Gitee</label><span class="label-value"><a>gitee.com/liyuliyu111</a></span>
+                    <label class="left-label">Gitee</label><span class="label-value" data-url="https://gitee.com/liyuliyu111">gitee.com/liyuliyu111</span>
                 </li>
                 <li>
-                    <label class="left-label">Github</label><span class="label-value">github.com/liyuliyyu</span>
+                    <label class="left-label">Github</label><span class="label-value" data-url="https://github.com/liyuliyyu">github.com/liyuliyyu</span>
                 </li>
             </ul>
         </div>
@@ -97,15 +99,20 @@
         </div>
 
         <div class="code info-unit">
-            <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人快捷联系方式</span></h2>
+            <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span
+                    class="info-title">个人快捷联系方式</span></h2>
             <hr class="divider">
-            <div class="contact-info">
-                <div class="contact-item weixin-qrCode" data-url="https://u.wechat.com/MJ1WaEiTkE742QkSfIPAaWA?s=1">
-                    <img style="width: 100px; height: 100px;" src="static/img/liyulsd.png" alt="" class="vx">
+            <div class="qrCode-info">
+                <div class="qrCode-item weixin-qrCode">
+                    <a href="https://u.wechat.com/MJ1WaEiTkE742QkSfIPAaWA?s=1" target="_blank">
+                        <img style="width: 100px; height: 100px;" src="static/img/liyulsd.png" alt="" class="vx">
+                    </a>
                     <div style="text-align: center;">微信</div>
                 </div>
-                <div class="contact-item tel-qrCode" data-url="tel:13082701150">
-                    <img style="width: 100px; height: 100px;" src="static/img/tel.png" alt="" class="vx">
+                <div class="qrCode-item tel-qrCode">
+                    <a href="tel:13082701150">
+                        <img style="width: 100px; height: 100px;" src="static/img/tel.png" alt="" class="vx">
+                    </a>
                     <div style="text-align: center;">电话</div>
                 </div>
             </div>
@@ -193,9 +200,11 @@
                         协助解决生产环境中遇到的问题，确保系统的稳定运行。
 
                     </p>
-                    <div class="contact-item qrCode qrCode_1" data-url="https://www.66law.cn/">
-                        <img style="width: 100px; height: 100px;" src="static/img/liyulsd.png" alt="" class="vx">
-                    </div>
+                    <a href="https://www.66law.cn/" target="_blank">
+                        <div class="qrCode-item qrCode qrCode_1">
+                            <img style="width: 80px; height: 80px;" src="static/img/66law.cn.png" alt="" class="vx">
+                        </div>
+                    </a>
                 </li>
                 <li>
                     <h3><b>华律网</b>（实习&nbsp;2025-7&nbsp;至&nbsp;2025-10）</h3>
@@ -213,10 +222,11 @@
                         协助解决生产环境中遇到的问题，确保系统的稳定运行。
 
                     </p>
-                    <div class="contact-item qrCode qrCode_2" data-url="https://www.66law.cn/">
-                        <img style="width: 100px; height: 100px;" src="static/img/liyulsd.png" alt="" class="vx">
-                    </div>
-
+                    <a href="https://www.66law.cn/" target="_blank">
+                        <div class="qrCode-item qrCode qrCode_1">
+                            <img style="width: 80px; height: 80px;" src="static/img/66law.cn.png" alt="" class="vx">
+                        </div>
+                    </a>
                 </li>
             </ul>
         </div>
