@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<script id="allow-copy_script"
+        src="chrome-extension://kkemgiffjdndikokhpoecoloebgeibde/content_scripts/copy.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>李时东的后端简历</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+<div class="container" id="cv">
+    <div class="side">
+        <div class="me">
+            <div class="portrait"></div>
+            <h1 id="username">李时东</h1>
+            <h4 id="persona-tag">后端开发工程师</h4>
+        </div>
+        <div class="profile info-unit">
+            <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+            <hr>
+            <ul class="info-list">
+                <li>
+                    <label class="left-label">姓名</label><span class="label-value">李时东</span>
+                </li>
+                <li>
+                    <label class="left-label">学历</label><span class="label-value">本科</span>
+                </li>
+                <li>
+                    <label class="left-label">毕业院校</label><span class="label-value">电子科技大学成都学院</span>
+                </li>
+                <li>
+                    <label class="left-label">毕业年份</label><span class="label-value">2025</span>
+                </li>
+            </ul>
+        </div>
+        <div class="contact info-unit">
+            <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+            <hr>
+            <ul class="info-list">
+                <li>
+                    <label class="left-label">手机</label><span class="label-value">13082701150</span>
+                </li>
+                <li>
+                    <label class="left-label">邮箱</label><span class="label-value">liyuliyuu0@163.com</span>
+                </li>
+                <li>
+                    <label class="left-label">Gitee</label><span class="label-value"><a>gitee.com/liyuliyu111</a></span>
+                </li>
+                <li>
+                    <label class="left-label">Github</label><span class="label-value">github.com/liyuliyyu</span>
+                </li>
+            </ul>
+        </div>
+        <div class="skill info-unit">
+            <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+            <hr>
+            <ul class="progress-list">
+                <li>
+                    <label class="left-label">Java</label>
+                    <progress value="90" max="100"></progress>
+                </li>
+                <li>
+                    <label class="left-label">数据结构与算法</label>
+                    <progress value="70" max="100"></progress>
+                </li>
+                <li>
+                    <label class="left-label">Javascript/ES6</label>
+                    <progress value="90" max="100"></progress>
+                </li>
+                <li>
+                    <label class="left-label">HTML5/CSS3</label>
+                    <progress value="80" max="100"></progress>
+                </li>
+                <li>
+                    <label class="left-label">Git</label>
+                    <progress value="60" max="100"></progress>
+                </li>
+            </ul>
+        </div>
+        <div class="stack info-unit">
+            <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+            <hr>
+            <ul class="stack-list">
+                <li>
+                    <label class="left-label">后端</label><span class="label-value">Java、SpringBoot、SpringIOC&AOP、SpringCloud、SpringMVC、MySQL、MyBatis、Redis、Netty、Apollo、Dubbo、RabbitMQ、Kafka、Zookeeper、MongoDB、ElasticSearch、Hadoop、Hive、Hbase、Flink、Kafka、K8S、Maven</span>
+                </li>
+                <li>
+                    <label class="left-label">前端</label><span class="label-value">HTML5、CSS/SCSS、JavaScript/Typescript、ES6、Vue.js、React.js、Axios、Webpack/Vite、ElementPLUS、Uniapp、Node.js、微信小程序</span>
+                </li>
+                <li>
+                    <label class="left-label">其它</label><span class="label-value">设计模式、前后端部署、<br>数据结构与算法</span>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="code info-unit">
+            <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人快捷联系方式</span></h2>
+            <hr class="divider">
+            <div class="contact-info">
+                <div class="contact-item weixin-qrCode" data-url="https://u.wechat.com/MJ1WaEiTkE742QkSfIPAaWA?s=1">
+                    <img style="width: 100px; height: 100px;" src="static/img/liyulsd.png" alt="" class="vx">
+                    <div style="text-align: center;">微信</div>
+                </div>
+                <div class="contact-item tel-qrCode" data-url="tel:13082701150">
+                    <img style="width: 100px; height: 100px;" src="static/img/tel.png" alt="" class="vx">
+                    <div style="text-align: center;">电话</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="main">
+        <div class="education info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span>
+            </h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <h3>电子科技大学成都学院 - 数据科学与大数据技术（本科）2021-2025</h3>
+
+                </li>
+            </ul>
+        </div>
+        <div class="education info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">个人优势</span>
+            </h2>
+            <hr>
+            <ul class="experience-list" type="1">
+
+                <li>
+                    <p>
+                        <b>Java基础：</b>熟练掌握字符串处理、集合操作、多线程编程等基本技能，并理解它们背后的实现原理。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        深入理解JVM：熟悉内存模型、垃圾回收机制以及不同类型的引用（强引用、弱引用等）。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        精通并发编程：能够灵活运用JUC包提供的工具进行高效并发控制，包括但不限于线程池管理、同步锁策略（乐观/悲观锁）、原子操作CAS及synchronized关键字的高级用法。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        数据库专长：不仅限于MySQL的基本使用，还深入了解其索引结构（如B+树）、事务隔离级别和锁定机制；同时具备Redis集群部署经验，能有效应对缓存相关的挑战（穿透、击穿、雪崩）。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        服务发现与配置管理：具有Nacos和Apollo的实际应用经历，理解它们如何支持微服务架构中的动态配置更新和服务注册发现过程。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        分布式系统组件：对ZooKeeper在实现高可用性和一致性方面的作用有深刻认识，了解其作为分布式协调器的具体应用场景。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        消息中间件知识：熟悉RabbitMQ的工作模式及其在构建解耦合系统时的重要作用。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Spring生态系精通：无论是传统的Spring框架还是现代化的Spring Boot/Spring
+                        Cloud解决方案都有丰富的实战经验，擅长利用这些工具快速搭建稳定且易于扩展的企业级应用程序。
+                    </p>
+                </li>
+
+            </ul>
+        </div>
+        <div class="project info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">项目经历</span></h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <h3><b>华律网</b>（实习 2025-7 至 2025-10）</h3>
+                    <p>
+                        华律网是中国在线法律服务平台，包括“问律师”，“找律师”和“查知识”三个核心功能。
+                        <br>
+                        <b>项目职责</b>：
+                        <br>
+
+                        负责优化Excel文件上传逻辑，提高上传速度和稳定性。 <br>
+                        实现了上传进度的实时反馈功能，提升了用户体验。 <br>
+                        参与开发并维护多个AI相关接口。 <br>
+                        对AI接口进行性能测试和优化，确保其在高并发场景下的稳定性和响应速度。 <br>
+                        负责系统的日常开发和维护工作。 <br>
+                        协助解决生产环境中遇到的问题，确保系统的稳定运行。
+
+                    </p>
+                    <div class="contact-item qrCode qrCode_1" data-url="https://www.66law.cn/">
+                        <img style="width: 100px; height: 100px;" src="static/img/liyulsd.png" alt="" class="vx">
+                    </div>
+                </li>
+                <li>
+                    <h3><b>华律网</b>（实习&nbsp;2025-7&nbsp;至&nbsp;2025-10）</h3>
+                    <p>
+                        华律网是中国在线法律服务平台，包括“问律师”，“找律师”和“查知识”三个核心功能。
+                        <br>
+                        <b>项目职责</b>：
+                        <br>
+
+                        负责优化Excel文件上传逻辑，提高上传速度和稳定性。 <br>
+                        实现了上传进度的实时反馈功能，提升了用户体验。 <br>
+                        参与开发并维护多个AI相关接口。 <br>
+                        对AI接口进行性能测试和优化，确保其在高并发场景下的稳定性和响应速度。 <br>
+                        负责系统的日常开发和维护工作。 <br>
+                        协助解决生产环境中遇到的问题，确保系统的稳定运行。
+
+                    </p>
+                    <div class="contact-item qrCode qrCode_2" data-url="https://www.66law.cn/">
+                        <img style="width: 100px; height: 100px;" src="static/img/liyulsd.png" alt="" class="vx">
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+        <div class="trophy info-unit">
+            <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">在校荣誉</span></h2>
+            <hr>
+            <br>
+            <ul class="experience-list">
+                <li>
+                    <h3>全国大学生数学建模大赛二等奖、互联网+全国三等奖、院级二等奖学金</h3>
+                </li>
+            </ul>
+        </div>
+        <div class="aboutme info-unit right-paragraph">
+            <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+            <hr>
+            <p>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;世上无难事
+            </p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
