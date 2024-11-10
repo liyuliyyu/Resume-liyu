@@ -242,7 +242,7 @@ p {
 
 .portrait {
     margin: 20px auto 10px;
-    background-image: url('/static/img/avatar.jpg');
+    background-image: url('/static/img/avatar.png');
     background-size: 100%;
     background-position: -1px 8px;
     border-radius: 50%;
